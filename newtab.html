@@ -2,14 +2,37 @@
 <html>
 
 <head>
-    <title>Page Title</title>
+    <title>Better New Tab</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/newtab.css'>
-    <script src='js/newtab.js'></script>
+    <!--<script src='js/newtab.js'></script> -->
 </head>
 
 <body>
-
+<div>
+    <div>
+        <div class="time-display">
+            <span id="time"></span>
+        </div>
+        
+        <div class="personal-greeting">
+            <h1>Hello, <span id="greeting">(name)</span></h1>
+            <input type="text" id="nameInput" style="display: none;">
+        </div>
+    </div>
+    <script src='js/newtab.js'></script>
+    <script src='js/name.js'></script>
+</div>
+<br>
+<hr>
+<div class="image-container">
+    <img src="https://source.unsplash.com/random/1920x1080/?modern" alt="Random Background Image" width="700" height="900">
+</div>
+<hr>
+<div class = "menu">
+    <a href="timer.html" class="button" id="timerButton">Pomodoro Timer</a>
+    <a href="quote.html" class="button" id="quoteButton">Random Quote</a>
+</div>
 </body>
 
 </html>
